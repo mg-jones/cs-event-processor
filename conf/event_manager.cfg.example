@@ -1,0 +1,17 @@
+# Main script settings
+[main]
+logfile = /var/log/cloudeventprocessor.log
+
+# CloudStack settings
+[cs]
+db_user = cloud
+db_passwd = [base64 password]
+db_host = localhost
+events_table = cloud_usage_events
+
+# Plugin settings (if needed)
+[nictool]
+url = [nictool API]
+soap = [nictool soap]
+user = [username]
+password = [password]
